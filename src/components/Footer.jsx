@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white text-center p-4 mt-8">
-      <p>© 2025 NSBTEK Solutions. All rights reserved.</p>
+    <footer className="bg-secondary text-white p-6 text-center">
+      <p>&copy; {new Date().getFullYear()} NSBTEK Solutions. All rights reserved.</p>
     </footer>
   )
 }
