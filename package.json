@@ -2,7 +2,7 @@
   "name": "nsbtek",
   "version": "1.0.0",
   "type": "module",
-"homepage": "https://www.nsbtek.com",
+"homepage": "https://NSBTEK.github.io/NSBTEK",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
