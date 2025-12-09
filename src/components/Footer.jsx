@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-primary text-white mt-16">
       <div className="max-w-7xl mx-auto px-6 md:px-10 py-12 grid md:grid-cols-3 gap-8">
         <div>
-          <img src="/Logo.png" alt="NSBTEK Logo" style={{height: 48}} />
+          <img src="/logo.png" alt="NSBTEK Logo" style={{height: 48}} />
           <p className="mt-4 text-sm text-white/90 max-w-sm">
             NSBTEK Solutions — powering businesses with top IT talent and innovative solutions.
           </p>

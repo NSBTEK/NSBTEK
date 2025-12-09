@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-6 md:px-10 space-y-16">
