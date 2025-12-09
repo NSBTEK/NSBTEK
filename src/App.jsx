@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Router>
       <Header />
-      <main className="pt-20 px-6 md:px-20 max-w-7xl mx-auto"> {/* pt-20 to offset fixed header */}
+      <main className="min-h-screen pt-20"> {/* pt-20 to offset fixed header */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

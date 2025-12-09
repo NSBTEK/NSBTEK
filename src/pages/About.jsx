@@ -15,7 +15,7 @@ export default function About() {
         </p>
 
         <Link
-          to="/contact"
+          to="/Contact"
           className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg font-semibold shadow-lg transition"
         >
           Get in Touch
