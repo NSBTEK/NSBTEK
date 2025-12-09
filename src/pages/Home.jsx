@@ -2,26 +2,32 @@ export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-6 md:px-10 space-y-16">
       {/* Hero */}
-      <section className="mt-10 rounded-xl overflow-hidden">
-        <div className="bg-gradient-to-r from-primary to-accent text-white rounded-xl p-12 md:p-20 shadow-soft-lg">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-              Powering Your Business with Top IT Talent & Innovative Solutions
-            </h1>
-            <p className="text-lg md:text-xl text-white/90 mb-8">
-              We connect organizations with skilled IT professionals and deliver consulting solutions that drive growth, efficiency, and digital transformation.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <a href="#/contact" className="inline-block bg-white text-primary px-6 py-3 rounded-md font-medium shadow hover:scale-[1.02] transition">
-                Get Started
-              </a>
-              <a href="#/contact" className="inline-block bg-white/20 text-white border border-white/30 px-6 py-3 rounded-md font-medium hover:bg-white/25 transition">
-                Contact Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="mt-28 rounded-3xl p-16 bg-gradient-to-r from-[#003366] via-[#0055A5] to-[#00AEEF] text-white shadow-xl">
+  <h1 className="text-5xl font-extrabold leading-tight">
+    Powering Your Business with Top IT Talent & Innovative Solutions
+  </h1>
+
+  <p className="text-lg mt-6 max-w-2xl text-blue-100">
+    We connect organizations with skilled IT professionals and deliver consulting solutions
+    that drive growth, efficiency, and digital transformation.
+  </p>
+
+  <div className="mt-8 flex gap-4">
+    <Link
+      to="/contact"
+      className="px-6 py-3 bg-white text-[#003366] font-semibold rounded-xl shadow hover:bg-gray-200 transition"
+    >
+      Get Started
+    </Link>
+
+    <Link
+      to="/services"
+      className="px-6 py-3 bg-[#003366] text-white font-semibold rounded-xl shadow hover:bg-[#002245] transition"
+    >
+      Explore Services
+    </Link>
+  </div>
+</section>
 
       {/* Services */}
       <section>
