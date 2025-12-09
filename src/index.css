@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global body gradient and font */
 body {
-  background-color: #E6F0FF;
+  background: linear-gradient(135deg, #F8FAFF 0%, #EEF3FF 100%);
   font-family: 'Inter', sans-serif;
+  color: #1A1F36;
+}
+
+/* Utility small tweaks */
+.header-height {
+  height: 72px; /* header fixed spacing */
+}
+
+/* Smooth link transitions */
+a {
+  transition: all .18s ease;
 }
