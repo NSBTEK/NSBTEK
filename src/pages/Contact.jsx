@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Contact() {
   return (
     <div className="max-w-3xl mx-auto px-6 md:px-10 py-12">
