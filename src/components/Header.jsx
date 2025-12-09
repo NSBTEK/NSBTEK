@@ -6,8 +6,8 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between h-full px-6 md:px-10">
         <div className="flex items-center gap-4">
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="NSBTEK Logo" style={{height: 55}} className="object-contain" />
-            <span className="text-primary text-lg font-semibold">NSBTEK Solutions</span>
+            <img src="/logo.png" alt="NSBTEK Logo" className="w-12 h-12" />
+            <h1 className="text-xl font-bold text-primary">NSBTEK Solutions</h1>
           </Link>
         </div>
 
