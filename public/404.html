@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>NSBTEK</title>
+    <script>
+      var path = window.location.pathname;
+      var search = window.location.search || "";
+      var hash = window.location.hash || "";
+      var newUrl = "/" + "?p=" + encodeURIComponent(path + search) + hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
