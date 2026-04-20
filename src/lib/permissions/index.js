@@ -16,9 +16,6 @@ const roleModules = {
     "contracts",
     "onboarding",
     "payroll",
-    "admin-users",
-    "admin-role-groups",
-    "admin-integrations",
   ],
   employee: [
     "dashboard",
@@ -33,4 +30,8 @@ export function canView(profile, moduleKey) {
   if (!profile?.role) return false;
   const allowed = roleModules[profile.role] || [];
   return allowed.includes("*") || allowed.includes(moduleKey);
+}
+
+export function isAdmin(profile) {
+  return ["platform_admin", "company_admin"].includes(profile?.role);
 }

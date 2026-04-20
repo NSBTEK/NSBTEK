@@ -1,9 +1,9 @@
 import AppShell from "@/components/layout/AppShell";
 
-export default function ActivitiesPage() {
+export default function CandidatesPage() {
   return (
     <AppShell>
-      <div>Activities module coming in Part 3.</div>
+      <div>Candidates module coming in Part 4.</div>
     </AppShell>
   );
 }
